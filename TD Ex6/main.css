@@ -1,0 +1,45 @@
+#tableau 
+{
+    
+    border-width:1px; 
+    border-style:solid; 
+    border-color:rgb(100, 7, 72);
+    width:max-content;
+}
+
+div{
+    margin-left: 5px;
+}
+
+#form{
+    margin-left: 5px;
+}
+
+#monsieur{
+    margin-left: 20px;
+}
+
+#nom 
+{
+    margin-left: 83px;
+}
+
+#prenom 
+{
+    margin-left: 65px;
+}
+
+.tab
+{
+    margin-left: 130px;
+}
+
+#telephone 
+{
+    margin-left: 47px;
+}
+
+#email 
+{
+    margin-left: 76px;
+}

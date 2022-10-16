@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+<div id="tableau">
+    <form>
+        <div>
+            <p> Civilités: 
+                <label for="Monsieur">Mr</label>
+                <input type="radio" id="Mr" name="drone" value="Mr">
+                <label for="Madame ou Mademoiselle">Mme ou Mlle</label>   
+                <input type="radio" id="Mme ou Mlle" name="drone" value="Mme ou Mlle">
+            </p>
+        </div>
+    
+        <div>
+            <p> Nom:
+                <input type="text" id="nom" name="name" required minlength="1" maxlength="20" size="16">
+            </p>
+        </div>
+
+        <div>
+            <p> Prénom: 
+                <input type="text" id="Prénom" name="name" required minlength="1" maxlength="20" size="16">
+            </p>
+        </div>
+
+        <div>
+            <p> Date de naissance: 
+            <select name="jour" id="jour-select">
+                <option value = "1"> 1 </option>
+                <option value = "2"> 2 </option>
+                <option value = "3"> 3 </option>
+                <option value = "4"> 4 </option>
+                <option value = "5"> 5 </option>
+                <option value = "6"> 6 </option>
+                <option value = "7"> 7 </option>
+                <option value = "8"> 8 </option>
+                <option value = "9"> 9 </option>
+                <option value = "10"> 10 </option>
+                <option value = "11"> 11 </option>
+                <option value = "12"> 12 </option>
+                <option value = "13"> 13 </option>
+                <option value = "14"> 14 </option>
+                <option value = "15"> 15 </option>
+                <option value = "16"> 16 </option>
+                <option value = "17"> 17 </option>
+                <option value = "18"> 18 </option>
+                <option value = "19"> 19 </option>
+                <option value = "20"> 20 </option>
+                <option value = "21"> 21 </option>
+                <option value = "22"> 22 </option>
+                <option value = "23"> 23 </option>
+                <option value = "24"> 24 </option>
+                <option value = "25"> 25 </option>
+                <option value = "26"> 26 </option>
+                <option value = "27"> 27 </option>
+                <option value = "28"> 28 </option>
+                <option value = "29"> 29 </option>
+                <option value = "30"> 30 </option>
+                <option value = "31"> 31 </option> 
+            </select>
+
+            <select name = " mois " id = " mois-select ">
+                <option value = "janvier"> janvier </option>
+                <option value = "février"> février </option>
+                <option value = "mars"> mars </option>
+                <option value = "avril"> avril </option>
+                <option value = "mai"> mai </option>
+                <option value = "juin"> juin </option>
+                <option value = "juillet"> juillet </option>
+                <option value = "août"> août </option>
+                <option value = "septembre"> septembre </option>
+                <option value = "octobre"> octobre </option>
+                <option value = "novembre"> novembre </option>
+                <option value = "décembre"> décembre </option>  
+            </select>
+
+            année: 
+            <input type="année" id="année" name="name" required minlength="1" maxlength="20" size="4">
+            </p>
+        </div>
+
+        <div class="tab"> Numéro:
+                 <input type="Numéro" id="Numéro" name="name" required minlength="1" maxlength="20" size="4">
+                Rue: 
+                 <input type="Rue" id="Rue" name="name" required minlength="1" maxlength="20" size="20">
+        </div>
+
+        <div> 
+            <p> Adresse: </p>
+        </div>
+
+        <div class="tab"> Code postal:
+                <input type="code postal" id="code postal" name="name" required minlength="1" maxlength="20" size="4">
+            Ville:
+                <input type="Ville" id="Ville" name="name" required minlength="1" maxlength="20" size="15">
+        </div>
+
+        <div>
+            <p> Téléphone:
+                <input type="Téléphone" id="Téléphone" name="name" required minlength="1" maxlength="20" size="6">   
+            </p>
+        </div>
+
+        <div>
+            <p> E-mail:
+                <input type="E-mail" id="E-mail" name="name" required minlength="1" maxlength="20" size="35">
+            </p>
+        </div>
+
+        <div>
+            <input type="button" value="envoyer">
+            <input type="button" value="remise à zéro">
+        </div>
+    </form>
+</div>
+    
+</body>
+</html>
