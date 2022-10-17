@@ -10,11 +10,10 @@
 </head>
 <body>
 <div id="tableau">
-    <form>
-        <div>
+        <div class="Civilités">
             <p> Civilités: 
-                <label for="Monsieur">Mr</label>
-                <input type="radio" id="Mr" name="drone" value="Mr">
+                <label for="Monsieur" id="Mr">Mr</label>
+                <input type="radio" name="drone" value="Mr">
                 <label for="Madame ou Mademoiselle">Mme ou Mlle</label>   
                 <input type="radio" id="Mme ou Mlle" name="drone" value="Mme ou Mlle">
             </p>
@@ -26,8 +25,8 @@
             </p>
         </div>
 
-        <div>
-            <p> Prénom: 
+        <div class="Prénon">
+            <p>Prénom: 
                 <input type="text" id="Prénom" name="name" required minlength="1" maxlength="20" size="16">
             </p>
         </div>
@@ -104,13 +103,13 @@
                 <input type="Ville" id="Ville" name="name" required minlength="1" maxlength="20" size="15">
         </div>
 
-        <div>
+        <div class="Télephone">
             <p> Téléphone:
                 <input type="Téléphone" id="Téléphone" name="name" required minlength="1" maxlength="20" size="6">   
             </p>
         </div>
 
-        <div>
+        <div class="E-mail">
             <p> E-mail:
                 <input type="E-mail" id="E-mail" name="name" required minlength="1" maxlength="20" size="35">
             </p>
@@ -120,7 +119,6 @@
             <input type="button" value="envoyer">
             <input type="button" value="remise à zéro">
         </div>
-    </form>
 </div>
     
 </body>

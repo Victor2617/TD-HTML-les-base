@@ -7,16 +7,9 @@
     width:max-content;
 }
 
-div{
-    margin-left: 5px;
-}
-
-#form{
-    margin-left: 5px;
-}
-
-#monsieur{
-    margin-left: 20px;
+#Mr
+{
+    margin-left: 65px;
 }
 
 #nom 
@@ -24,7 +17,7 @@ div{
     margin-left: 83px;
 }
 
-#prenom 
+#Prénom 
 {
     margin-left: 65px;
 }
@@ -34,12 +27,12 @@ div{
     margin-left: 130px;
 }
 
-#telephone 
+#Téléphone 
 {
     margin-left: 47px;
 }
 
-#email 
+#E-mail 
 {
-    margin-left: 76px;
+    margin-left: 70px;
 }
